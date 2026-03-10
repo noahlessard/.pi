@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://100.87.138.100:9090/upstream/qwen3-30b-a3b-coder/",
+      "api": "openai-completions",
+      "apiKey": "ollama",
+      "models": [
+        {
+          "id": "qwen3-30b-a3b-coder "
+        }
+      ]
+    }
+  }
+}

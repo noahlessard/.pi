@@ -1,0 +1,21 @@
+{
+  "lastChangelogVersion": "0.57.1",
+  "defaultProvider": "ollama",
+  "defaultModel": "qwen3VL-30b-a3b-vision",
+  "images": {
+    "autoResize": true
+  },
+  "defaultThinkingLevel": "medium",
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 8192,
+    "keepRecentTokens": 48000
+  },
+  "retry": {
+    "enabled": true,
+    "maxRetries": 3,
+    "baseDelayMs": 2000,
+    "maxDelayMs": 30000
+  },
+  "hideThinkingBlock": false
+}
