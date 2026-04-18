@@ -1,15 +1,15 @@
 {
-  "lastChangelogVersion": "0.57.1",
-  "defaultProvider": "ollama",
-  "defaultModel": "qwen3VL-30b-a3b-vision",
+  "lastChangelogVersion": "0.65.0",
+  "defaultProvider": "ollamaQwen3.6",
+  "defaultModel": "qwen3.6-35B-a3b",
   "images": {
     "autoResize": true
   },
   "defaultThinkingLevel": "medium",
   "compaction": {
     "enabled": true,
-    "reserveTokens": 8192,
-    "keepRecentTokens": 48000
+    "reserveTokens": 4096,
+    "keepRecentTokens": 6400
   },
   "retry": {
     "enabled": true,
