@@ -1,12 +1,12 @@
 {
   "providers": {
-    "ollamaQwen3.5": {
-      "baseUrl": "http://100.87.138.100:9090/upstream/qwen3.5VL-35b-a3b/",
+    "ollamaQwen3.6.8bit": {
+      "baseUrl": "http://100.87.138.100:9090/upstream/qwen3.6-35B-a3b-8bit/",
       "api": "openai-completions",
       "apiKey": "ollama",
       "models": [
         {
-          "id": "qwen3.5VL-35b-a3b"
+          "id": "qwen3.6-35B-a3b-8bit"
         }
       ]
     },
