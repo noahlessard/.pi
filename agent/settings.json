@@ -1,21 +1,25 @@
 {
-  "lastChangelogVersion": "0.65.0",
-  "defaultProvider": "ollamaQwen3.6",
-  "defaultModel": "qwen3.6-35B-a3b",
+  "lastChangelogVersion": "0.84.1",
+  "defaultProvider": "openrouter",
+  "defaultModel": "deepseek/deepseek-v4-flash-0731",
   "images": {
     "autoResize": true
-  },
-  "defaultThinkingLevel": "medium",
-  "compaction": {
-    "enabled": true,
-    "reserveTokens": 4096,
-    "keepRecentTokens": 6400
   },
   "retry": {
     "enabled": true,
     "maxRetries": 3,
     "baseDelayMs": 2000,
-    "maxDelayMs": 30000
+    "provider": {
+      "maxRetryDelayMs": 30000
+    }
   },
-  "hideThinkingBlock": false
+  "hideThinkingBlock": false,
+    "enabledModels": [
+       "openrouter/deepseek/deepseek-v4-flash-0731",
+       "openrouter/moonshotai/kimi-k3",
+       "ollamaQwen3.6.8bit/qwen3.6-35B-a3b-8bit",
+       "ollamaQwen3.6/qwen3.6-35B-a3b"
+  ],
+  "theme": "dark",
+  "defaultThinkingLevel": "high"
 }
